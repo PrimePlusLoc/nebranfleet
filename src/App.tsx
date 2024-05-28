@@ -1,13 +1,14 @@
 import React from 'react';
+import Header from './components/Header/Header';
 import './App.css';
-import MaintenancePage from './MaintenancePage'; 
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <MaintenancePage />
+      <Header />
+      {}
     </div>
   );
-}
+};
 
 export default App;
